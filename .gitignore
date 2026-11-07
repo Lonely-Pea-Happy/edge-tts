@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 打包产物（源码仓库不收二进制，需要 exe 自己跑 build_exe.bat）
+build/
+dist/
+dict/
+*.spec
+
+# 运行产物：合成的音频与字幕
+output/
+
+# 本地状态与日志
+*.log
+crash.log
+settings.json
+.preview*.mp3
+
+# 编辑器 / 虚拟环境
+.venv/
+venv/
+.idea/
+.vscode/
+.tools/
